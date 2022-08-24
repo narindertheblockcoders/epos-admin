@@ -50,17 +50,17 @@ const Subscription = (props) => {
                 />
                 <div className="switch-sec">
                   <div className="form-check form-switch">
-                    <input
+                    {/* <input
                       className="form-check-input"
                       style={{ width: "3rem" }}
                       type="checkbox"
                       id="flexSwitchCheckChecked"
-                    />
+                    /> */}
                      {/* <Link href={""}> */}
                           {/* </Link> */}
-                  </div>
-                  <p className="switch-text">Hide Zero Balances</p>
-                </div>
+                  {/* </div>
+                  <p className="switch-text">Hide Zero Balances</p>*/}
+   </div> </div>
                 <Link href={"/addnew"}>
                 <button id="add-btns" className="btn btn-outline-success btn-round border-btn mt-0"  type="submit">Add New</button>
                 </Link>

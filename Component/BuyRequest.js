@@ -37,7 +37,7 @@ const BuyRequest = () => {
                   </span>
                 BUY REQUEST</h3>
 
-              <div className="search-sec">
+              {/* <div className="search-sec">
                 <input
                   className="search-input"
                   type="text"
@@ -55,9 +55,9 @@ const BuyRequest = () => {
                   </div>
                   <p className="switch-text">Hide Zero Balances</p>
                 </div>
-              </div>
+              </div> */}
 
-              <table className="table funds-table">
+              <table className="table funds-table mt-4">
                 <thead>
                   <tr>
                     <th  scope="col">FIRST NAME</th>

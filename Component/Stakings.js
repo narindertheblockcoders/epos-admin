@@ -64,7 +64,7 @@ const Stakings = () => {
                   </span>
                 STAKINGS</h3>
 
-              <div className="search-sec">
+              {/* <div className="search-sec">
                 <input
                   className="search-input"
                   type="text"
@@ -82,8 +82,8 @@ const Stakings = () => {
                   </div>
                   <p className="switch-text">Hide Zero Balances</p>
                 </div>
-              </div>
-              <table className="table funds-table">
+              </div> */}
+              <table className="table funds-table mt-4">
                 <thead>
                   <tr>
                     <th scope="col">STAKINGS DATE</th>

@@ -59,7 +59,7 @@ const Dashboard = () => {
                     BUY REQUEST<br/>{totalStats?.totalBuyRequests}
                   </div>
                 </Link>
-                    <div className="dashboard-item"  style={{ cursor: "pointer" }} id="second-btns">
+                    {/* <div className="dashboard-item"  style={{ cursor: "pointer" }} id="second-btns">
                     <div className="btc-text pt-3">
                     BTC
                     </div>
@@ -76,17 +76,17 @@ const Dashboard = () => {
                     <div className="left-text">Pending<br/>{totalStats?.ethPendingAmount}</div>
                     <div className="right-text">Aproved<br/>{totalStats?.ethApprovedAmount}</div>
                     </div>
-                  </div>
-                  <div className="dashboard-item "  style={{ cursor: "pointer" }} id="four-btns">
+                  </div> */}
+                  <div className="dashboard-item "  style={{ cursor: "pointer" }}  id="second-btns">
                     <div className="btc-text pt-3">
-                    POLYGON
+                    BUSD
                     </div>
                     <div className="dtc-sec" style={{display:"flex"}}>
                     <div className="left-text">Pending<br/>{totalStats?.polyPendingAmount}</div>
                     <div className="right-text">Aproved<br/>{totalStats?.polyApprovedAmount}</div>
                     </div>
                   </div>
-                  <div className="dashboard-item "  style={{ cursor: "pointer" }} id="five-btns">
+                  <div className="dashboard-item "  style={{ cursor: "pointer" }} id="third-btns">
                     <div className="btc-text pt-3">
                     USDT
                     </div>
@@ -95,7 +95,7 @@ const Dashboard = () => {
                     <div className="right-text">Aproved<br/>{totalStats?.usdtApprovedAmount}</div>
                     </div>
                   </div>
-                  <div className="dashboard-item "  style={{ cursor: "pointer" }} id="six-btns">
+                  {/* <div className="dashboard-item "  style={{ cursor: "pointer" }} id="six-btns">
                     <div className="btc-text pt-3">
                     CREDIT CARD
                     </div>
@@ -103,7 +103,7 @@ const Dashboard = () => {
                     <div className="left-text">Pending<br/>{totalStats?.ccPendingAmount}</div>
                     <div className="right-text">Aproved<br/>{totalStats?.ccApprovedAmount}</div>
                     </div>
-                  </div>
+                  </div> */}
                   <Link href={"/subscription"}>
                   <div className="dashboard-item " id="seven-btns"  style={{ cursor: "pointer" }}>{}
                   <div className="btc-text pt-3">
